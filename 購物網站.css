@@ -1,0 +1,257 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	color: gray;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+
+/*header*/
+.responsive{
+	width: 100%;
+	height: auto;
+}
+.logo{
+	width: 50px;
+	position: relative;
+	top: 8px;
+}
+.logo_word{
+	font-size: 1.8vw;
+}
+#row1{
+	height: 85px;
+}
+.header_content_div{
+	width: 10%;
+	height: 100%;
+	
+}
+.header_content_div:hover{
+	border: solid white 2px;
+}
+.header_content{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 100%;
+	font-size: 20px;
+}
+.header_content span{
+	position: relative;
+	top: 30px;
+}
+#login_div{
+	position: relative;
+	left: 13%;
+}
+.header_img{
+	width: 40px;
+}
+.nav-link{
+	font-size: 1.5vw;
+}
+.cart{
+	max-width: 40px;
+	position: relative;
+	/*top: 15px;*/
+}
+#cart_button{
+	background-color: #212529;
+	border: 0;
+}
+#cart_button_mobile{
+	width: 50px;
+	height: 100%;
+	/*background-color: #212529;*/
+	background-color: red;
+	border: 0;
+	position: relative;
+	left: 15%;
+}
+
+/*content*/
+
+.search_bar_div{
+	padding-top: 30px;
+	width: 100%;
+	text-align: center;
+	
+}
+#search_bar{
+	width: 70%;
+	height: 40px;
+	border-radius: 80px;
+	border: 1px solid gray;
+}
+
+/*slideshow*/
+
+.slideshow_div{
+	padding-top: 30px;
+	width: 100%;
+}
+.slideshow{
+	width: 100%;
+	transition-duration: 0.3s;
+}
+#slideshow01{
+	display: block;
+	transition-duration: 0.3s;
+}
+#slideshow02{
+	display: none;
+	transition-duration: 0.3s;
+}
+.hot_text{
+	padding-top: 30px;
+	/*font-size: 3vw;*/
+	font-size: 50px;
+}
+#hot_div{
+	padding-top: 30px;
+	/*display: flex;
+	justify-content: center;
+	flex-wrap: wrap;*/
+}
+.card_img{
+	width: 100%;
+}
+.card-title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	/*font-size: 30px;*/
+	font-size: 2vw;
+}
+.card-text{
+	font-family: Arial, Helvetica, sans-serif;
+	/*font-size: 20px;*/
+	font-size: 1.5vw;
+}
+.add_btn{
+	width: auto;
+	height: auto;
+	float: right;
+	border: solid gray 1px;
+	border-radius: 50px;
+	background-color: white;
+	transition-duration: 0.3s;
+}
+.add_btn img{
+	width: 100%;
+	max-width: 30px;
+	height: auto;
+}
+.add_btn:hover{
+	background-color: orange;
+}
+
+
+/*shopping cart list*/
+
+
+#cart_close_header{
+	border: 0;
+	background-color: white;
+	font-size: 30px;
+}
+.shoppingcart_img{
+	max-width: 100px;
+	height: auto;
+	width: 100%;
+	/*background-color: red;*/
+}
+.modal_body{
+	padding-left: 5%;
+	padding-top: 5%;
+	/*background-color: gray;*/
+
+}
+.modal_body ol{
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+	justify-content: space-around;
+	padding-left: 5%;
+}
+.shoppingcart_num{
+	width: 50px;
+	height: 20px;
+
+}
+
+
+/*footer*/
+
+
+.footer_text{
+	display: flex;
+	color: white;
+	height: 150px;
+	justify-content: center;
+	align-items: center;
+}
+.brand{
+	display: flex;
+	justify-content: center;
+	height: 150px;
+	align-items: center;
+	font-size: 30px;
+}
+#i_line{
+	padding-left: 20px;
+}
+#i_tw{
+	padding-left: 20px;
+}
+#i_ig{
+	padding-left: 20px;
+}
